@@ -16,8 +16,8 @@ return [
         // namespace, the value of that key the specific path to that module's
         // Module class.
         'module_paths' => [
-            './module',
-            './vendor',
+            realpath(__DIR__) . '/../module',
+            realpath(__DIR__) . '/../vendor',
         ],
 
         // An array of paths from which to glob configuration files after

@@ -7,7 +7,7 @@
 
 namespace ApplicationTest\Controller;
 
-use Application\Controller\IndexController;
+use Backend\Controller\IndexController;
 use Zend\Stdlib\ArrayUtils;
 use Zend\Test\PHPUnit\Controller\AbstractHttpControllerTestCase;
 
